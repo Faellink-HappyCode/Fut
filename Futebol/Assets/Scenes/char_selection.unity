@@ -438,7 +438,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 527676980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125762368}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: PlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &527676980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,14 +903,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p1ChoiceNum: 0
   p2ChoiceNum: 0
-  imgP1: {fileID: 0}
-  imgP2: {fileID: 0}
-  option0: {fileID: 0}
-  option00: {fileID: 0}
-  option1: {fileID: 0}
-  option2: {fileID: 0}
-  option3: {fileID: 0}
-  option4: {fileID: 0}
+  imgP1: {fileID: 874433293}
+  imgP2: {fileID: 1552618180}
+  option0: {fileID: 21300000, guid: 283edb58104a76b4caa413efefa052f0, type: 3}
+  option00: {fileID: 21300000, guid: 4663dbfc0f1783c4e99b7d45387a7f2e, type: 3}
+  option1: {fileID: 21300000, guid: 3d1fd77299707ca4f99a9f1071a31346, type: 3}
+  option2: {fileID: 21300000, guid: 3ae5952f4289fbb41820e50114f6c64b, type: 3}
+  option3: {fileID: 21300000, guid: 3b744c2b01f35a6468a80aff12ef640c, type: 3}
+  option4: {fileID: 21300000, guid: 684bacac6baf10148b4f574cf649fad8, type: 3}
 --- !u!4 &1125762369
 Transform:
   m_ObjectHideFlags: 0
@@ -995,7 +1007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1199357679}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125762368}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: P1Plus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1199357679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,7 +1219,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1346687173}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125762368}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: P2Less
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1346687173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1774,7 +1810,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1598559557}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125762368}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: P1Less
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1598559557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1895,7 +1943,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1831300822}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125762368}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: P2Plus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1831300822
 MonoBehaviour:
   m_ObjectHideFlags: 0
